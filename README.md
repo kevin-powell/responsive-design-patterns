@@ -108,6 +108,7 @@ Also, you'll want to set a `min-width` on the children to prevent them from beco
 
 - [A modern CSS reset](https://hankchizljaw.com/wrote/a-modern-css-reset/) by Andy Bell
 - [Managing Flow and Rhythm with CSS Custom Properties](https://24ways.org/2018/managing-flow-and-rhythm-with-css-custom-properties/) by Andy Bell
+- [Grid by Example](https://gridbyexample.com/patterns/) by Rachel Andrew
 - [The Holy Albatross](https://heydonworks.com/article/the-flexbox-holy-albatross/) by Heydon Pickering. This is incredibly useful! But to make a point about accessibility and the loopholes we make others jump through, for the time being you'll have to disable JavaScript to access Heydon's site. I did make [a YouTube video where I explored it](https://youtu.be/fuiEYR6Hoe0), but I didn't really show the true power of it, it just scratches the surface.
 
 
