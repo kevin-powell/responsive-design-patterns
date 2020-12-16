@@ -85,3 +85,9 @@ select {
   --fs-700: 1.875rem;
   --fs-xl: clamp(3rem, 1rem + 5vw, 5.75rem);
 }
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  background: red;
+}

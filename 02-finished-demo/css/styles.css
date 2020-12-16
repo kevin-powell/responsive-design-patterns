@@ -85,3 +85,99 @@ select {
   --fs-700: 1.875rem;
   --fs-xl: clamp(3rem, 1rem + 5vw, 5.75rem);
 }
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  line-height: 1.6;
+  color: var(--clr-primary-600);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-accent);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: var(--fs-xl);
+}
+h2 {
+  font-size: var(--fs-700);
+}
+h3 {
+  font-size: var(--fs-600);
+}
+
+section,
+.primary-footer {
+  padding: 4rem 0;
+}
+
+/*  utility classes */
+
+.container {
+  /* padding: 0 1rem;
+  max-width: 60rem; */
+  width: min(90%, 60rem);
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.bg-dark {
+  background-color: var(--clr-primary-600);
+  color: var(--clr-neutral-100);
+}
+
+.bg-light {
+  background-color: #eee;
+}
+
+.flow-content > * + * {
+  margin-top: 1rem;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+  /* gap: 2em; */
+}
+
+.split > * + * {
+  margin: 2em 0 0 0;
+}
+
+@media (min-width: 50em) {
+  .split {
+    flex-direction: row;
+  }
+
+  .split > * {
+    flex-shrink: 1;
+    flex-basis: 100%;
+  }
+
+  .split > * + * {
+    margin: 0 0 0 2em;
+  }
+
+  .big-column {
+    flex-basis: 250%;
+  }
+}
+
+/* components */
+
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.widget {
+  padding: 1em;
+  flex: 1 1 200px;
+}
